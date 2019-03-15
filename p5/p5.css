@@ -1,0 +1,43 @@
+body 
+{
+    background:url("https://www.inspiredwallpaper.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/M/1/M1072-SW.jpg") no-repeat;
+    background-size:cover;
+}
+th, td 
+{
+    padding: 15px;font-size:30px;
+}
+tr 
+{
+    font-size:50px;
+}
+caption
+{
+    font-size:3em;
+    text-align:center;
+}
+#border1 
+{
+    border: 5px solid #a0ad2527;
+    border-radius: 50px;
+}
+a.fb:link,a.fb:visited 
+{
+    background-color:#1919a021;
+    color:#ffffff;text-decoration:none;
+    padding:0.5em;
+}  
+a.fb:hover,a.fb:active 
+{
+    background-color:#ffffff69;
+    color:rgba(0, 0, 255, 0.315);
+    text-decoration:none;padding:0.5em;
+}
+table
+{
+    text-align:left;
+}
+p
+{
+    text-align:center;
+}
