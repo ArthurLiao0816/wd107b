@@ -1,0 +1,21 @@
+button {
+  background-color:#000000;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.box {
+  border: 3px solid #73AD21;
+}
+table { width: 800px; }
+td {  }
+.wide { width: 300px; }
