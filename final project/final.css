@@ -109,7 +109,6 @@ body{
 .sidebar:hover a{
     display: block;
 }
-.introduction body {background:url("https://www.inspiredwallpaper.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/M/1/M1072-SW.jpg") no-repeat;background-size:cover;}
 .introduction th, .introduction td {padding: 15px;font-size:30px;}
 .introduction tr {font-size:50px;}
 .introduction caption {font-size:3em;}
