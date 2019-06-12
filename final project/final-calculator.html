@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head<>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Arthur</title>
+</head>
+<body>
+    <div class="mainmenu">
+        <a href="https://arthurliao0816.github.io/wd107b/final%20project/final-home.html">Home</a>
+        <div class="dropdown">
+            <button class="volleyball" onclick="myfunction()">
+                Function <i class="fa fa-gear fa-spin"></i>
+            </button>
+                    
+            <div class="volleyball-brand">
+                        <a href="https://arthurliao0816.github.io/wd107b/final%20project/final-calculator.html">Calculator</a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input id="fstn" type="text" value="0"/>
+        <select id="op">
+          <option value="+" selected>+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input id="scdn" type="text" value="0"/>
+         = <label id="result"></label><br/><br/>
+        <button onclick="calculate()">計算</button>
+    </div>
+</body>
