@@ -12,4 +12,4 @@
 欄位 | 內容
 -----|--------
 名稱|關於我的網頁
-功能|sidebar、dropdownbutton、link
+功能|calculator、dropdownbutton、link
