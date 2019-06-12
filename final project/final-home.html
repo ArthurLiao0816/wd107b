@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head<>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <title>Arthur</title>
+    
+    <style>  
+        body{
+            margin: 0em;
+            background-color: rgb(233, 233, 233);
+        }
+        .mainmenu{
+            background-color:rgb(49, 136, 218);
+            overflow: hidden;
+            z-index: 1;
+        }
+        .mainmenu a{
+            font-size: 2em;
+            color: white;
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .mainmenu a:hover{
+            color:rgb(49, 136, 218);
+            background-color: white;
+        }
+        .dropdown{
+            float: right;
+            overflow: hidden;
+        }
+        
+        .dropdown .volleyball{
+            cursor: pointer;
+            margin: 0;
+            background-color:inherit;
+            overflow: hidden;
+            outline: none;
+            border: none;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        .volleyball:hover{
+            color:rgb(49, 136, 218);
+            background-color: white;
+        }
+        .volleyball-brand{
+            display: none;
+            width: 100%;
+            position: absolute;
+            float: right;
+            background-color: whitesmoke;
+            color: black;
+            box-shadow: 0px 10px 16px 0px  rgba(0, 0, 0, 0.3);
+            z-index: 1;
+            min-width: 160px;
+            text-decoration: none;
+        }
+        .volleyball-brand a{
+            text-align: left;
+            float: left;
+            width: inherit;
+            color: black;
+            background-color: white;
+            padding: 0.2em 0.4em;
+            display: block;
+        }
+        .volleyball-brand a:hover{
+            background-color: gray;
+            color: whitesmoke;
+        }
+        .dropdown:hover .volleyball-brand{
+            display: block;
+        }
+        .dropdown:hover .volleyball{
+            background-color: white;
+            color: rgb(49, 136, 218);
+        }
+        .sidebar{
+            position: fixed;
+            top: 48px;
+            left: 0px;
+            width: 0px;
+            height: 100%;
+            background-color: rgb(129, 180, 228);
+            margin: 0px;
+            padding: 10px 5px;
+            white-space:nowrap;
+            z-index: -1;
+        }
+        .sidebar a{
+            color: rgb(233, 233, 233);
+            display: none;
+            text-decoration: none;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .sidebar li, .sidebar ul {
+            list-style-type: none;
+            margin: 5px 10px;
+            padding: 10px;
+        }
+        .sidebar {
+            transition: width 1s;
+        }
+        .sidebar a:hover {
+            color: rgb(0, 89, 255);
+        }
+        .sidebar:hover {
+            width: 175px; 
+        }
+        .sidebar:hover a{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#Ishikawa">Ishikawa</a></li>
+            <li><a href="#Yanagida">Yanagida</a></li>
+            <li><a href="#Dekida">Dekida</a></li>
+        </ul>
+    </div>
+    <div class="mainmenu">
+        <a href="#home">Home</a>
+        <div class="dropdown">
+            <button class="volleyball" onclick="myfunction()">
+                Volleyball <i class="fa fa-gear fa-spin"></i>
+            </button>
+            
+            <div class="volleyball-brand">
+                <a href="#Mikasa">Mikasa</a>
+                <a href="#Conti">Conti</a>
+                <a href="#Molten">Molten</a>
+            </div>
+        </div>
+    </div>
+</body>
