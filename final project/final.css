@@ -109,3 +109,6 @@ body{
 .sidebar:hover a{
     display: block;
 }
+th, td {
+    padding: 15px;
+  } 
