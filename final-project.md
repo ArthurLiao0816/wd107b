@@ -2,7 +2,7 @@
 
 ## 1. 我的網誌
 
-連結：[final project](final project)
+連結：[final project](final-project)
 
 ## 2. 計算機
 
