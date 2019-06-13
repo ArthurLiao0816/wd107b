@@ -2,6 +2,100 @@ body {
     background:url("https://www.inspiredwallpaper.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/M/1/M1072-SW.jpg") no-repeat;
     background-size:cover;
 }
+.mainmenu{
+    background-color:rgb(49, 136, 218);
+    overflow: hidden;
+    z-index: 1;
+}
+.mainmenu a{
+    font-size: 2em;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.mainmenu a:hover{
+    color:rgb(49, 136, 218);
+    background-color: white;
+}
+.dropdown{
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .ddbtn{
+    cursor: pointer;
+    margin: 0;
+    background-color:inherit;
+    overflow: hidden;
+    border: none;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 14px 16px;
+}
+.ddbtn:hover{
+    color:rgb(49, 136, 218);
+    background-color: white;
+}
+.function{
+    display: none;
+    width: 100%;
+    position: absolute;
+    float: right;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0px 10px 16px 0px  rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    min-width: 160px;
+    text-decoration: none;
+}
+.function a{
+    text-align: left;
+    float: left;
+    width: inherit;
+    color: black;
+    background-color: white;
+    padding: 0.2em 0.4em;
+    display: block;
+}
+.function a:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+.dropdown:hover .function{
+    display: block;
+}
+.dropdown:hover .ddbtn{
+    background-color: white;
+    color: rgb(49, 136, 218);
+}
+
+.introduction th, .introduction td {
+    padding: 15px;
+    font-size:30px;}
+.introduction tr {
+    font-size:50px;
+}
+.introduction caption {
+    font-size:3em;
+}
+.introduction #border1 {
+    border: 5px solid #a0ad2527;
+    border-radius: 50px;
+}
+.introduction a.fb:link,a.fb:visited {
+    background-color:#1919a021;
+    color:#ffffff;
+    text-decoration:none;padding:0.5em;
+}  
+.introduction a.fb:hover,a.fb:active {
+    background-color:#ffffff69;
+    color:rgba(0, 0, 255, 0.315);
+    text-decoration:none;padding:0.5em;
+}
+
 th, td {
     padding: 15px;font-size:30px;
     border:2px solid #000000;
