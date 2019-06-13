@@ -105,3 +105,30 @@ body{
     margin: -300px 0 0 -400px;
     background-color: rgb(37, 107, 155);
 }
+
+.table th, .table td {
+    padding: 15px;font-size:30px;
+    border:2px solid #000000;
+}
+.table tr {
+    font-size:50px;
+    border:2px solid #000000;
+}
+.table caption{
+    font-size:3em;
+    text-align:center;
+}
+#border1 {
+    border: 5px solid #a0ad2527;
+    border-radius: 50px;
+}
+.table table{
+    text-align:left;
+}
+.table p{
+    text-align:center;
+}
+.table img{
+    border-radius: 50%;
+    border:3px solid rgba(234, 244, 248, 0.637);
+}
