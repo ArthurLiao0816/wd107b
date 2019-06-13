@@ -1,0 +1,66 @@
+body {
+    background:url("https://www.inspiredwallpaper.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/M/1/M1072-SW.jpg") no-repeat;
+    background-size:cover;
+}
+th, td {
+    padding: 15px;font-size:30px;
+    border:2px solid #000000;
+}
+tr {
+    font-size:50px;
+    border:2px solid #000000;
+}
+caption{
+    font-size:3em;
+    text-align:center;
+}
+#border1 {
+    border: 5px solid #a0ad2527;
+    border-radius: 50px;
+}
+a.fb:link,a.fb:visited {
+    background-color:#ffffff00;
+    color:#000000;
+    text-decoration:none;
+    padding:0.5em;
+    widows: 32px;
+    height: 16px;
+}  
+a.fb:hover,a.fb:active {
+    background-color:#ffffff00;
+    color:#000000;
+    text-decoration:none;
+    padding:0.5em;
+}
+table{
+    text-align:left;
+}
+p{
+    text-align:center;
+}
+img{
+    border-radius: 50%;
+    border:3px solid rgba(234, 244, 248, 0.637);
+}
+button.fb{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black;
+    border-radius: 0.5em; 
+    border: 2px solid rgb(85, 94, 86);
+}
+button.fb:hover{
+    background-color: rgb(85, 94, 86);
+    color: white;
+    border:2px solid rgb(85, 94, 86);
+}

@@ -29,7 +29,6 @@ body{
     margin: 0;
     background-color:inherit;
     overflow: hidden;
-    outline: none;
     border: none;
     color: white;
     font-size: 2em;
@@ -72,50 +71,30 @@ body{
     background-color: white;
     color: rgb(49, 136, 218);
 }
-.sidebar{
-    position: fixed;
-    top: 48px;
-    left: 0px;
-    width: 0px;
-    height: 100%;
-    background-color: rgb(129, 180, 228);
-    margin: 0px;
-    padding: 10px 5px;
-    white-space:nowrap;
-    z-index: -1;
-}
-.sidebar a{
-    color: rgb(233, 233, 233);
-    display: none;
-    text-decoration: none;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-}
-.sidebar li, .sidebar ul {
-    list-style-type: none;
-    margin: 5px 10px;
-    padding: 10px;
-}
-.sidebar {
-    transition: width 1s;
-}
-.sidebar a:hover {
-    color: rgb(0, 89, 255);
-}
-.sidebar:hover {
-    width: 175px; 
-}
-.sidebar:hover a{
-    display: block;
-}
 
-.introduction th, .introduction td {padding: 15px;font-size:30px;}
-.introduction tr {font-size:50px;}
-.introduction caption {font-size:3em;}
-.introduction #border1 {border: 5px solid #a0ad2527;border-radius: 50px;}
-.introduction a.fb:link,a.fb:visited {background-color:#1919a021;color:#ffffff;text-decoration:none;padding:0.5em;}  
-.introduction a.fb:hover,a.fb:active {background-color:#ffffff69;color:rgba(0, 0, 255, 0.315);text-decoration:none;padding:0.5em;}
+.introduction th, .introduction td {
+    padding: 15px;
+    font-size:30px;}
+.introduction tr {
+    font-size:50px;
+}
+.introduction caption {
+    font-size:3em;
+}
+.introduction #border1 {
+    border: 5px solid #a0ad2527;
+    border-radius: 50px;
+}
+.introduction a.fb:link,a.fb:visited {
+    background-color:#1919a021;
+    color:#ffffff;
+    text-decoration:none;padding:0.5em;
+}  
+.introduction a.fb:hover,a.fb:active {
+    background-color:#ffffff69;
+    color:rgba(0, 0, 255, 0.315);
+    text-decoration:none;padding:0.5em;
+}
 
 .calculator div{
     width:600px;
@@ -124,5 +103,5 @@ body{
     top:50%;
     left:50%;
     margin: -300px 0 0 -400px;
-    background-color: gray;
+    background-color: rgb(37, 107, 155);
 }

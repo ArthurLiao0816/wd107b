@@ -7,9 +7,4 @@
 教師 | 陳鍾誠
 學校 | 金門大學
 科系 | 資訊工程系
-
-# 網頁設計期末專案
-欄位 | 內容
------|--------
-名稱|關於我的網頁
-功能|calculator、dropdownbutton、link
+專案 | [說明]{final-project.md}
