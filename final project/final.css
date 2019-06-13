@@ -96,16 +96,6 @@ body{
     text-decoration:none;padding:0.5em;
 }
 
-.calculator div{
-    width:600px;
-    height:800px;
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin: -300px 0 0 -400px;
-    background-color: rgb(37, 107, 155);
-}
-
 .paper th, td {
     padding: 15px;font-size:30px;
     border:2px solid #000000;
