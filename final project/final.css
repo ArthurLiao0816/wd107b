@@ -24,7 +24,7 @@ body{
     overflow: hidden;
 }
 
-.dropdown .volleyball{
+.dropdown .ddbtn{
     cursor: pointer;
     margin: 0;
     background-color:inherit;
@@ -36,11 +36,11 @@ body{
     text-align: center;
     padding: 14px 16px;
 }
-.volleyball:hover{
+.function{
     color:rgb(49, 136, 218);
     background-color: white;
 }
-.volleyball-brand{
+.function{
     display: none;
     width: 100%;
     position: absolute;
@@ -52,7 +52,7 @@ body{
     min-width: 160px;
     text-decoration: none;
 }
-.volleyball-brand a{
+.function a{
     text-align: left;
     float: left;
     width: inherit;
@@ -61,14 +61,14 @@ body{
     padding: 0.2em 0.4em;
     display: block;
 }
-.volleyball-brand a:hover{
+.function a:hover{
     background-color: gray;
     color: whitesmoke;
 }
-.dropdown:hover .volleyball-brand{
+.dropdown:hover .function{
     display: block;
 }
-.dropdown:hover .volleyball{
+.dropdown:hover .ddbtn{
     background-color: white;
     color: rgb(49, 136, 218);
 }
