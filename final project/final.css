@@ -106,7 +106,7 @@ body{
     background-color: rgb(37, 107, 155);
 }
 
-.paper th, .paper td {
+.paper th, td {
     padding: 15px;font-size:30px;
     border:2px solid #000000;
 }
