@@ -3,5 +3,5 @@ function calculate() {
     var operator = document.getElementById('operator')
     var scdn = document.getElementById('scdn')
     var result = document.getElementById('result')
-    result.innerText = eval(fstn.value + op.value + scdn.value)
+    result.innerText = eval(fstn.value + operator.value + scdn.value)
   }
