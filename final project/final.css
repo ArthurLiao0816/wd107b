@@ -118,9 +118,9 @@ body{
 .introduction a.fb:hover,a.fb:active {background-color:#ffffff69;color:rgba(0, 0, 255, 0.315);text-decoration:none;padding:0.5em;}
 
 .calculator div{
-    position:absolute;
     width:600px;
     height:800px;
+    position:absolute;
     top:50%;
     left:50%;
     margin: -300px 0 0 -400px;
