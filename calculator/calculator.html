@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head<>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="final.css"></link>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="calculate.js"></script>
+    <title>Arthur</title>
+</head>
+<body>
+    <div>
+        <input id="fsti" type="text" value="0"/>
+        <select id="operator">
+          <option value="+" selected>+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input id="scdi" type="text" value="0"/>
+        <pre>= <label id="result" type="text" value="0"></label></pre>
+        <button onclick="calculate()">計算</button>
+    </div>
+</body>
