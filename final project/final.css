@@ -24,7 +24,7 @@ body{
     overflow: hidden;
 }
 
-.dropdown,.ddbtn{
+.dropdown .function{
     cursor: pointer;
     margin: 0;
     background-color:inherit;
